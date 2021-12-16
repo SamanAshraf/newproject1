@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Student</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            .navigation{
+                
+                width: 365px;
+                height: 735px;
+                left: 25px;
+                top: 13px;
+
+                background: linear-gradient(90deg, rgba(155, 111, 234, 0.07) 108.64%, rgba(196, 196, 196, 0) 108.65%);
+                border-radius: 10px;
+            }
+            #icon{
+                position: absolute;
+                height: 42px;
+                width: 42px;
+                padding-left: 18px;
+                padding-bottom: 18px;
+            }
+            .top{
+                padding: 40px;
+                height: 40px;
+
+                border-bottom: 1px solid #4B258C;
+                
+                
+            }
+            #teachername{
+                position: absolute;
+                width: 171px;
+                height: 36px;
+                left: 100px;
+                top: 14px;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-align: center;
+                padding-top: 15px;
+                color: #4B258C;
+            }
+            
+            .bottom{
+                padding: 30px;
+            }
+            #options-style{
+                
+                width: 135px;
+                height: 36px;
+                left: 73px;
+                top: 179px;
+            
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-align: center;
+
+                color: #4B258C;
+                line-height: 2.5em;
+                text-decoration: none;
+
+    
+            }
+            #button{
+                position: absolute;
+                width: 144px;
+                height: 52px;
+                left: 64px;
+                top: 670px;
+
+                background: #4B258C;
+                border-radius: 20px;
+                border-color: blanchedalmond;
+                color: blanchedalmond;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                letter-spacing: 4px;
+                
+            }
+            #button2{
+                position: absolute;
+                width: 300px;
+                height: 50px;
+                left: 195px;
+                top: 660px;
+                letter-spacing: 5px;
+
+                background: #4B258C;
+                border-radius: 20px;
+                border-color: blanchedalmond;
+                color: blanchedalmond;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                
+            }
+            .rightpanel{
+                position: absolute;
+                width: 1140px;
+                height: 735px;
+                left: 383px;
+                top: 9px;
+
+                
+                border-radius: 10px;
+                            }
+            #title1{
+                position: absolute;
+                width: 297px;
+                height: 72px;
+                left: 130px;
+                top: 10px;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 10px;
+                /* identical to box height */
+
+                text-align: center;
+
+                color: #4B258C;
+
+            }
+            #title2{
+                position: absolute;
+                width: 228px;
+                height: 36px;
+                left: 100px;
+                
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 36px;
+                /* identical to box height */
+                display: inline;
+                text-align: center;
+                color: #4B258C;
+            }
+            #textbox{
+                position: absolute;
+                width: 380px;
+                height: 28px;
+                left: 155px;
+                top: 135px;
+
+                background: rgba(253, 192, 15, 0.03);
+                border: 1px solid #4B258C;
+                box-sizing: border-box;
+                border-radius: 20px;
+                
+
+            }
+            #search{
+                position: absolute;
+                width: 248px;
+                height: 40px;
+                left: 800px;
+                top: 24px;
+                border-color: blanchedalmond;
+                border-radius: 20px;
+                text-align: center;
+                color:blanchedalmond;
+                background: linear-gradient(90deg, rgba(155, 111, 234, 0.07) 108.64%, rgba(196, 196, 196, 0) 108.65%);
+            }
+            
+            #image{
+               
+          
+                position: absolute;
+                width: 480px;
+                height: 321px;
+                left: 673px;
+                top: 423px;
+
+
+            }
+           
+           
+
+
+            
+        </style>
+
+    </head>
+    <body>
+      <div class="navigation">
+
+          <div class="top">
+            <img src=".//icon.png" id=icon>
+            <h1 id="teachername">Saman Ashraf</h1>
+            <h6 style="font-size: 16px;" id="teachername">Teacher</h1>
+          </div>
+
+          <div class="bottom">
+
+                <ul style="list-style-type: none; ">
+                    <li><a href="" id="options-style" >Dashboard</a></li>
+                    <li><a href="./addstudent.html"id="options-style">Add Student</a></li>
+                    <li><a href="./deletestudent.html"id="options-style">Delete Student</a></li>
+                    <li><a href=""id="options-style">Block Student</a></li>
+                    <li><a href=""id="options-style">Take Attendance</a></li>
+                    <li><a href="./viewattendance.html"id="options-style">View Attendance</a></li>
+                    <li><a href=""id="options-style">Manage Leave</a></li>
+                    <li><a href=""id="options-style">Alert Student</a></li>
+                </ul>
+
+                <a href="./mainpage.html"><button id="button">Logout</button></a>
+
+          </div>
+        
+      </div>
+      <div class="rightpanel">
+        <h1 id="title1">Add Student</h1>
+        <input type="search" name="search" id="search" placeholder="Search">
+        <form>
+            <table>
+            <tr> 
+            <td><label id="title2" style="top: 80px; left: 85px;">First Name</label></td>	
+            <td><input type="name" name="First Name" id="textbox" style="top: 110px;"></td> 
+            </tr>
+            <tr>
+            <td><label id="title2" style="top: 135px; left: 85px;">Last Name</label></td>
+            <td><input type="name" name="Last Name" id="textbox" style="top: 165px;"><br><br></td>
+            </tr>
+            <tr>
+            <td><label id="title2" style="top: 190px; left: 65px;">CNIC</label></td>
+            <td><input type="cnic" name="cnic" id="textbox" style="top: 220px;"></td>
+            </tr>
+            <tr>
+                <td><label id="title2" style="top: 245px; left: 110px;">Student Phone No</label></td>
+                <td><input type="contactno" name="number" id="textbox" style="top: 280px;"></td>
+            </tr>
+            <tr>
+                <td><label id="title2" style="top: 305px; left: 115px;">Guardian Phone No</label></td>
+                <td><input type="contactno" name="number" id="textbox" style="top: 340px;"></td>
+            </tr>
+            <tr>
+                <td><label id="title2" style="top: 365px; left: 105px;">Student Semester</label></td>
+                <td><input type="name" name="Semester" id="textbox" style="top: 400px;"></td>
+            </tr>
+            <tr>
+                <td><label id="title2" style="top: 425px; left: 115px;">Student Department</label></td>
+                <td><input type="name" name="Department" id="textbox" style="top: 460px;"></td>
+            </tr>
+            <tr>
+                <td><label id="title2" style="top: 485px; left: 95px;">Student Email</label></td>
+                <td><input type="name" name="Department" id="textbox" style="top: 520px;"></td>
+            </tr>
+        </form>
+        <div>
+            <img src="./images 2.png" id="image">
+
+            <i class="icon-bell" style=" color:green; font-size: 50px;"></i>
+            <button id="button2">Done</button>
+           
+            
+            
+        </div>
+        
+      </div>
+      
+    </body>
+</html>
